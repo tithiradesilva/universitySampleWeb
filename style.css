@@ -333,9 +333,56 @@ nav .fa{
     text-align: center;
 }
 
-.reviews{
+.reviews {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
+
+.row {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+    gap: 10px; 
+}
+
+.testimonial-col {
+    flex-basis: 35%; 
+    border-radius: 10px;
+    margin-bottom: 5%; 
+    text-align: left;
+    background: none;
+    border: 2px solid #ebebeb;
+    padding: 20px 10px;
+    padding-right: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-col img {
+    height: 40px;
+    margin: 0 20px 0 5px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 75px;
+}
+
+.testimonial-col p {
+    padding: 0;
+    margin: 0;
+    line-height: 29px;
+    word-wrap: break-word;
+    color: #4c4c4c;
+    margin-top: 10px;
+}
+
+.testimonial-col h3 {
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.testimonial-col .fa {
+    color: #efcb00;
+}
+

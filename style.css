@@ -23,9 +23,11 @@
 
 nav{
     display: flex;
-    padding: 2% 6%;
+    padding: 0px 6%;
+    padding-top: 17px;
+    padding-bottom: 15px;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center; 
 }
 
 nav img{
@@ -40,7 +42,7 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 0px 12px;
     position: relative;
 }
 
@@ -138,6 +140,7 @@ nav .fa{
 
     .nav-links ul li{
         display: block;
+        margin-bottom: 10px;
     }
     .nav-links{
         position: absolute;
@@ -151,26 +154,24 @@ nav .fa{
         transition: 0.3s; 
     }
 
-    .nav-nav{
-        margin-top: 20px;
-    }
-
     nav .fa{
         display: block;
         color: white;
-        margin: 10px;
-        margin-top: 20px;
-        font-size: 22px;
+        font-size: 19px;
         cursor: pointer;
+    }
+
+    #nav-close{
+        margin: 20px;
+        margin-top: 30px;
+        font-size: 25px;
     }
 
     .nav-links ul{
         padding: 30px;
+        padding-left: 13px;
     }
 
-    .logo{
-        margin-top: 20px;
-    }
     .hero-btn{
         font-size: 16px;
     }
